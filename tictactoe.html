@@ -3,9 +3,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tic Tac Toe Project</title>
+    <link rel="icon" type="image" href="images/icontest.jpg"/>
+    <link rel="stylesheet" href="style.css"/>
+    
 </head>
 <body>
-    
+    <div class = "body">
+        <div class = "tictactoe-wrapper">
+            <div class = "firstplayer" id = "firstplayer">
+                <button class = "firstX" id = "firstX">Player X</button>   
+                <button class = "firstO" id = "firstO">Player O</button>
+            </div>
+            <div class="display">
+                <!--Player <span class = "display-player player X">X</span>'s turn -->
+            </div>
+            <div class ="board" id = "board">
+                <div class="tile" id="tile"></div>
+                <div class="tile" id="tile"></div>
+                <div class="tile" id="tile"></div>
+                <div class="tile" id="tile"></div>
+                <div class="tile" id="tile"></div>
+                <div class="tile" id="tile"></div>
+                <div class="tile" id="tile"></div>
+                <div class="tile" id="tile"></div>
+                <div class="tile" id="tile"></div>
+            </div>
+            <div class = "result"></div>
+                <div class ="modal-wrapper" id = "modal-wrapper">
+                <div class = "history-wrapper" id = "history-wrapper">
+                    <!--<div class = "rank" id = "rank"></div>-->
+                    <div class = "history" id ="history"></div>
+                </div>
+                <button class = "close-btn" id = "close-btn">Back</button>
+                </div>  
+            <div class = "buttons">
+                <button class = "previous" id = "prev">Previous</button>   
+                <button class = "reset" id = "reset">Reset</button>
+                <button class = "next" id = "next">Next</button>
+                <button class = "open" id= "open">History</button>
+            </div>
+        </div>    
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
+
+<!--
+    clickable tiles
+
+
+
+
+-->
